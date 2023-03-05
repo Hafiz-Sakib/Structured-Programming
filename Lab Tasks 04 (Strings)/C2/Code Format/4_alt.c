@@ -4,24 +4,26 @@ int main()
     char s[100];
     char n[100];
     scanf("%[^\n]", s);
-    int i = 0, c = 0, ok = 1;
+    int i = 0, len = 0, ok = 1;
     while (s[i] != '\0')
     {
         i++;
     }
-    int k = 0;
-    for (int j = i - 1; j >= 0; j--)
+    len = i - 1;
+    i = 0;
+    while (s[i] != '\0')
     {
-        n[k] = s[j];
-        k++;
-    }
-    for (i = 0; s[i] != '\0'; i++)
-    {
-        if (s[i] != n[i])
+        if (s[i] != s[len])
         {
             ok = 0;
             break;
         }
+        else if (i == (len / 2))
+        {
+            break;
+        }
+        i++;
+        len--;
     }
     if (ok)
     {

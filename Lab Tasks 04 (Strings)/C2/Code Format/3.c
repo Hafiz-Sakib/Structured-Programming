@@ -5,7 +5,7 @@ int main()
     scanf("%[^\n]", s);
     char a, b;
     scanf("%c", &a);
-    scanf("%c", &b);
+    scanf(" %c", &b);
     int i = 0, c = 0;
     while (s[i] != '\0')
     {
@@ -20,13 +20,12 @@ int main()
         }
         i++;
     }
-
     i = 0;
     while (s[i] != '\0')
     {
         i++;
     }
-    for (int j = i; j >= 0; j--)
+    for (int j = (i - 1); j >= 0; j--)
     {
         if (s[j] == a && c == 1)
         {
