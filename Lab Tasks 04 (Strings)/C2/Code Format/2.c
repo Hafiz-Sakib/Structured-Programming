@@ -6,7 +6,7 @@ int main()
     int i = 0, c = 1;
     while (s[i] != '\0')
     {
-        if (s[i] == ' ' || s[i] == '\n' || s[i] == '\t')
+        if (s[i] == ' ')
         {
             c++;
             while (s[i] == ' ')
