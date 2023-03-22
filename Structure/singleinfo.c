@@ -69,7 +69,7 @@ int main()
     ReadStudents(n, student);
 
     int roll = 0;
-    printf("\nEnter The Student ID that you Searching for : \n");
+    printf("\nEnter The student ID that you are searching for : \n");
     scanf("%d", &roll);
     for (int i = 0; i < n; i++)
     {
