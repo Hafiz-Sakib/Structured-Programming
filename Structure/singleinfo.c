@@ -32,10 +32,12 @@ void ReadStudents(int n, struct students *student)
         scanf("%f", &student[i].cgpa);
 
         printf("Enter the University Name of the Student : \n");
-        scanf("%d", &student[i].uni_name);
+        fflush(stdin);
+        gets(student[i].uni_name);
 
         printf("Enter the Department Name of the Student : \n");
-        scanf("%d", &student[i].uni_name);
+        fflush(stdin);
+        gets(student[i].dept);
     }
 }
 
@@ -51,9 +53,9 @@ void WriteStudents(struct students student, int n)
 
         printf("CGPA of %s is : %.2f\n", student.name, student.cgpa);
 
-        printf("University Name of  %s is : %d\n", student.name, student.uni_name);
+        printf("University Name of %s is : %s\n", student.name, student.uni_name);
 
-        printf("Departmanet Name of %s is : %d\n", student.name, student.dept);
+        printf("Departmanet Name of %s is : %s\n", student.name, student.dept);
     }
 }
 
