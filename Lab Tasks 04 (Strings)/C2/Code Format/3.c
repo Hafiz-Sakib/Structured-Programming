@@ -1,3 +1,11 @@
+/*
+Name : Hafiz Sakib
+Id : 0222210005101118
+
+*/
+
+// Problem : Write a C Program to replace the first and last occurance of a character with another one in the string.(Another One Will be Inputed)
+
 #include <stdio.h>
 int main()
 {
