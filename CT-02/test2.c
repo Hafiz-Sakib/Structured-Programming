@@ -3,7 +3,7 @@
 
 int main()
 {
-    char s[100] = "Abc", p[100] = "abc";
+    char s[100] = "abc", p[100] = "abce";
     // scanf("%[^\n]", s);
     // scanf("%[^\n]", p);
     int x = strcmp(s, p);
