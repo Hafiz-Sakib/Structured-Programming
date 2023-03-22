@@ -14,9 +14,8 @@ struct students
     char dept[10];
 };
 
-void ReadStudents(int n, struct students *student)
+void GetStudentInformation(int n, struct students *student)
 {
-
     for (int i = 0; i < n; i++)
     {
         printf("\nEnter information of Student %d : \n\n", (i + 1));
@@ -41,7 +40,7 @@ void ReadStudents(int n, struct students *student)
     }
 }
 
-void WriteStudents(struct students student, int n)
+void ShowStudentInformation(struct students student, int n)
 {
     if (n == student.std_id)
     {
@@ -66,14 +65,14 @@ int main()
     scanf("%d", &n);
     struct students student[n];
 
-    ReadStudents(n, student);
+    GetStudentInformation(n, student);
 
     int roll = 0;
     printf("\nEnter The student ID that you are searching for : \n");
     scanf("%d", &roll);
     for (int i = 0; i < n; i++)
     {
-        WriteStudents(student[i], roll);
+        ShowStudentInformation(student[i], roll);
     }
 
     return 0;
