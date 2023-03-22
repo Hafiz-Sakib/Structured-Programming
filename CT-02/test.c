@@ -23,10 +23,10 @@ int my_strcmp(char str1[], char str2[])
 
 int main()
 {
-    char s[100], p[100];
-    scanf("%[^\n]", s);
-    scanf("%[^\n]", p);
-    int result = my_strcmp(s, p);
+    char str1[] = "bfb";
+    char str2[] = "gfg";
+    int result = my_strcmp(str1, str2);
     printf("%d", result);
+
     return 0;
 }
