@@ -1,3 +1,11 @@
+/*
+Name : Hafiz Sakib
+Id : 0222210005101118
+
+*/
+
+// Problem : Write a C Program to replace the vowel in lowercase to uppercase  in a string and vice-versa.
+
 #include <stdio.h>
 int main()
 {
