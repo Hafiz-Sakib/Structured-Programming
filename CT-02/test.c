@@ -23,21 +23,9 @@ int my_strcmp(char str1[], char str2[])
 
 int main()
 {
-    char str1[] = "hello";
-    char str2[] = "world";
+    char str1[] = "bfb";
+    char str2[] = "gfg";
     int result = my_strcmp(str1, str2);
-    if (result == 0)
-    {
-        printf("The two strings are equal.\n");
-    }
-    else if (result < 0)
-    {
-        printf("String 1 is less than string 2.\n");
-    }
-    else
-    {
-        printf("String 1 is greater than string 2.\n");
-    }
-
+    printf("%d", result);
     return 0;
 }
