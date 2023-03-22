@@ -37,7 +37,7 @@ int main()
 {
     char s[100], p[100];
     scanf("%[^\n]", s);
-    // fflush(stdin);
+    fflush(stdin);
     scanf("%[^\n]", p);
     int result = my_cmp(s, p);
     printf("%d", result);
