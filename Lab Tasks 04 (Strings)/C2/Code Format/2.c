@@ -1,3 +1,11 @@
+/*
+Name : Hafiz Sakib
+Id : 0222210005101118
+
+*/
+
+// Problem : Write a C Program to Count the words in  a string
+
 #include <stdio.h>
 int main()
 {
