@@ -31,7 +31,7 @@ void ReadStudents(int n, struct students *student)
     }
 }
 
-void WriteStudents(struct students student)
+voidShowStudentInformation(struct students student)
 {
     printf("\nThis is the Information About : %s\n\n", student.name);
 
@@ -51,11 +51,11 @@ int main()
     scanf("%d", &n);
     struct students student[n];
 
-    ReadStudents(n, student);
+    GetStudentInformation(n, student);
 
     for (int i = 0; i < n; i++)
     {
-        WriteStudents(student[i]);
+        ShowStudentInformation(student[i]);
     }
 
     return 0;
