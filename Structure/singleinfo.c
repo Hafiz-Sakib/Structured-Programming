@@ -1,6 +1,10 @@
+/*
+Name : Hafiz Sakib
+Id : 0222210005101118
+
+*/
 #include <stdio.h>
 #include <string.h>
-
 struct students
 {
     char name[20];
@@ -50,7 +54,7 @@ void WriteStudents(struct students student, int n)
         printf("University Name of  %s is : %d\n", student.name, student.uni_name);
 
         printf("Departmanet Name of %s is : %d\n", student.name, student.dept);
-        }
+    }
 }
 
 int main()
