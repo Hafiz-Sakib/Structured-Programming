@@ -67,12 +67,12 @@ int main()
 
     GetStudentInformation(n, student);
 
-    int roll = 0;
+    int id = 0;
     printf("\nEnter The student ID that you are searching for : \n");
-    scanf("%d", &roll);
+    scanf("%d", &id);
     for (int i = 0; i < n; i++)
     {
-        ShowStudentInformation(student[i], roll);
+        ShowStudentInformation(student[i], id);
     }
 
     return 0;
