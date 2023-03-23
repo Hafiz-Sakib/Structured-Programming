@@ -46,7 +46,7 @@ void ShowStudentInformation(struct students student, int n)
     {
         printf("\nThis is the Information About : %s\n\n", student.name);
 
-        printf("Name of Student is : %s\n", student.name);
+        printf("Name of the Student is : %s\n", student.name);
 
         printf("Student ID of %s is : %d\n", student.name, student.std_id);
 
