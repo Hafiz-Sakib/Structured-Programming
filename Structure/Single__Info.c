@@ -48,7 +48,7 @@ void ShowStudentInformation(struct students student, int n)
 
         printf("Name of Student is : %s\n", student.name);
 
-        printf("Student ID of  %s is : %d\n", student.name, student.std_id);
+        printf("Student ID of %s is : %d\n", student.name, student.std_id);
 
         printf("CGPA of %s is : %.2f\n", student.name, student.cgpa);
 
