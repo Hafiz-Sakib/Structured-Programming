@@ -46,13 +46,13 @@ void ShowStudentInformation(struct students student)
 
     printf("Name of Student is : %s\n", student.name);
 
-    printf("Student ID of  %s  is : %d\n", student.name, student.std_id);
+    printf("Student ID of %s is : %d\n", student.name, student.std_id);
 
-    printf("CGPA of  %s  is : %.2f\n", student.name, student.cgpa);
+    printf("CGPA of %s is : %.2f\n", student.name, student.cgpa);
 
-    printf("University Name of  %s  is : %s\n", student.name, student.uni_name);
+    printf("University Name of %s is : %s\n", student.name, student.uni_name);
 
-    printf("Departmanet Name of  %s  is : %s\n", student.name, student.dept);
+    printf("Departmanet Name of %s is : %s\n", student.name, student.dept);
 }
 
 int main()
