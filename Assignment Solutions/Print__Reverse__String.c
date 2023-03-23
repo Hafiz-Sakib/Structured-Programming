@@ -2,12 +2,17 @@
 int main()
 {
     char s[1000];
-    scanf("[^\n]", s);
-    int i = 0;
-    while (s[i] != '\0')
+    scanf("%[^\n]", s);
+    int len = 0;
+
+    while (s[len] != '\0')
     {
-        i++;
+        len++;
     }
-    printf("%d", i);
+
+    for (int i = len - 1; i >= 0; i--)
+    {
+        printf("%c", s[i]);
+    }
     return 0;
 }
