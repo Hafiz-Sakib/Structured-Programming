@@ -17,10 +17,10 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         ok = 0;
-        for (int j = (i + 1); j < n - 1; j++)
+        for (int j = (i + 1); j < n; j++)
         {
             if ((a[i] == a[j]) && (a[j] != -1))
             {
